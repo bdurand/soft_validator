@@ -64,7 +64,7 @@ class SoftValidator < ActiveModel::EachValidator
 end
 
 require_relative "soft_validator/log_subscriber"
+
 if defined?(Rails::Railtie)
   require_relative "soft_validator/railtie"
 end
-

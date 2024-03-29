@@ -2,9 +2,12 @@
 
 # Log subscriber for soft validation errors.
 class SoftValidator::LogSubscriber < ActiveSupport::LogSubscriber
-  attach_to :soft_validator
-
   class << self
+    # Helper method to attach the log subscriber.
+    def attach
+      attach_to :soft_validator
+    end
+
     # Helper method to detach the log subscriber.
     def detach
       detach_from :soft_validator

@@ -24,7 +24,7 @@ jobs:
             standardrb: true
           - ruby: "3.2"
             appraisal: "activemodel_7"
-          - ruby: "3.2.7"
+          - ruby: "2.7"
             appraisal: "activemodel_6"
           - ruby: "2.5"
             appraisal: "activemodel_5"
