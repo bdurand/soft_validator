@@ -28,9 +28,9 @@ Gem::Specification.new do |spec|
 
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "activemodel", ">= 5.2"
+  spec.add_dependency "activemodel", ">= 7.0"
 
   spec.add_development_dependency "bundler"
 
-  spec.required_ruby_version = ">= 2.5"
+  spec.required_ruby_version = ">= 2.7"
 end
